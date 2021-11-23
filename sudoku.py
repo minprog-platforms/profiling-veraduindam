@@ -58,7 +58,7 @@ class Sudoku:
         3 4 5
         6 7 8
         """
-        values = []
+        values: list[int] = []
 
         x_start = (i % 3) * 3
         y_start = (i // 3) * 3
